@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Student</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<style type="text/css">
+td{
+height:30px;
+width:200px;
+}
+
+</style>
+
+</head>
+<body>
+	<table>
+		<tr>
+			<td><b>Enter Id :</b></td>
+			<td>
+				<form action="MainServlet" method="post">
+					<input type="number" placeholder="Enter Id" name="id">
+			</td>
+		</tr>
+
+		<tr>
+			<td><b>Enter Name :</b></td>
+			<td><input type="text" placeholder="Enter name" name="name">
+			</td>
+
+		</tr>
+		<tr>
+			<td><b>Enter Branch :</b></td>
+			<td><input type="text" placeholder="Enter branch" name="branch">
+			</td>
+
+		</tr>
+		<tr>
+			<td><b>Enter Semester:</b></td>
+			<td><input type="number" placeholder="Enter semester"
+				name="semester"></td>
+
+		</tr>
+<tr>
+			<td><b>Enter SPI:</b></td>
+			<td><input type="number"  step ="any" placeholder="Enter SPI"
+				name="spi"></td>
+
+		</tr>
+		<tr>
+		<td><button><a href="index.jsp">Back</a></button></td>
+		
+			<td  colspan="2"><input id="button" type="submit" value="Add Student">
+			</td>
+		</tr>
+		</form>
+
+	</table>
+</body>
+</html>
